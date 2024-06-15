@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="author" content="Rich Rhynor Austria">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+  <title>intro section</title>
+</head>
+<body>
+  <header>
+    <div class="container flex">
+      <div class="logo flex">
+        <img src="./images/logo.svg" alt="">
+          <nav>
+            <ul>
+              <li><a href="#" id="feature">Features</a> <i class="ri-arrow-down-s-line"></i></li>
+              <li><a href="#" id="company">Company </a> <i class="ri-arrow-down-s-line"></i></li>
+              <li><a href="#">Careers</a></li> 
+              <li><a href="#">About</a></li> 
+            </ul>
+
+            <div class="dropdown-main">
+              <div class="dropdown" id="dropdown" >
+                <a href=""><img src="./images/icon-todo.svg" alt=""><span>Todo list</span></a>
+                <a href=""><img src="./images/icon-calendar.svg" alt=""><span>Calendar</span></a>
+                <a href=""><img src="./images/icon-reminders.svg" alt=""><span>reminders</span></a>
+                <a href=""><img src="./images/icon-planning.svg" alt=""><span>Planning</span></a>
+              </div>
+
+              <div class="dropdown-menu" id="dropdown2">
+                <div class="sub-dropdown">
+                  <a href="">History</a>
+                  <a href="">Our Team</a>
+                  <a href="">Blog</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+      </div>
+      <div class="header-right">
+        <a href="#" >Login</a>
+        <a href="#" >Register</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="hero">
+    <div class="container-hero grid">
+      <div class="hero-content-left">
+        <h1>Make <br>remote work</h1>
+        <p>Get your team in sync, no matter your location. Streamline processes, 
+          create team rituals, and watch productivity soar.</p>
+
+        <a href="#" class="btn-dark">Learn more</a>
+
+        <div class="img-logo">
+          <img src="./images/client-databiz.svg" alt="">
+          <img src="./images/client-audiophile.svg" alt="">
+          <img src="./images/client-meet.svg" alt="">
+          <img src="./images/client-meet.svg" alt="">
+        </div>
+      </div>
+      <div class="hero-content-right">
+        <img src="./images/image-hero-desktop.png" alt="" class="desktopimg">
+      </div>
+    </div>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>
